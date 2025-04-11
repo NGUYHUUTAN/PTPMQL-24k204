@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AzCl+nKyrHkGkPiWvfHNFnQrHi+7JlDsds1lm4vekHM=",
+  "Hash": "NDxT6Lz7HULoWPvr4BDIAv4nd7MU1OELVOeqph65T/k=",
   "Source": "DemoMvc",
   "BasePath": "_content/DemoMvc",
   "Mode": "Default",
@@ -1403,6 +1403,27 @@
       "OriginalItemSpec": "C:\\Users\\Admin\\Desktop\\PTPMQL-24k204\\DemoMvc\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DemoMvc.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Desktop\\PTPMQL-24k204\\DemoMvc\\wwwroot\\App.db",
+      "SourceId": "DemoMvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\PTPMQL-24k204\\DemoMvc\\wwwroot\\",
+      "BasePath": "_content/DemoMvc",
+      "RelativePath": "App#[.{fingerprint}]?.db",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\App.db"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Desktop\\PTPMQL-24k204\\DemoMvc\\wwwroot\\css\\site.css",
       "SourceId": "DemoMvc",
       "SourceType": "Discovered",
@@ -2727,6 +2748,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "App.5ipweew5fc.db",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL-24k204\\DemoMvc\\wwwroot\\App.db",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 09:49:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "App.db"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "App.db",
+      "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL-24k204\\DemoMvc\\wwwroot\\App.db",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 09:49:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
     {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "C:\\Users\\Admin\\Desktop\\PTPMQL-24k204\\DemoMvc\\obj\\Debug\\net9.0\\compressed\\gg3vtprv69-b9sayid5wm.gz",

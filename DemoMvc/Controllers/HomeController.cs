@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DemoMvc.Models;
+using Microsoft.AspNetCore.Mvc.Formatters;
 
 namespace DemoMvc.Controllers;
 
@@ -20,6 +21,13 @@ public class HomeController : Controller
 
     public IActionResult Privacy()
     {
+        return View();
+    }
+    [HttpPost]
+    public IActionResult Index(string FullName, string Address)
+    {
+        string strOutput = "Xin chào " + FullName + "Đến từ" + Address;
+        ViewBag.Massage = strOutput;
         return View();
     }
 

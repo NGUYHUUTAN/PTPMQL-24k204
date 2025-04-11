@@ -4,7 +4,11 @@
 
 
 <form asp-action="Index">
-    <Input type="Text" name="=FullName">
-    <input type="Text" name="Address"
-    <input type="submit" value="Gửi dữ liệu"
+    <label>Nhập họ tên:</label>
+    <input type="Text" name="FullName">
+    <label>Nhập địa chỉ:</label>
+    <input type="Text" name="Address">
+    <input type="submit" value="Gửi dữ liệu">
 </form>
+
+<h1>@ViewBag.Massage</h1>

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\DemoMvc.yd0ufu2ale.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\PTPMQL-24k204\\DemoMvc\\wwwroot\\App.db",
+      "PackagePath": "staticwebassets\\App.db"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\PTPMQL-24k204\\DemoMvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
